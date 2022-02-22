@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&display=swap');
+
+body {
+ 
+}
+
+.titles {
+    font-family: 'Hurricane', cursive;
+    font-size: 48px;
+}
+
+
+
+#SelectDate {
+    width: 75%;
+    padding: 20px;
+}
+
+.dailyTable {
+    width:20%;
+}
+
+.btn {
+    margin-top: 10px;
+}
