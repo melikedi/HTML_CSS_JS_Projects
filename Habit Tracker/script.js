@@ -141,7 +141,7 @@ function insertRow(table, objRowData, copyData) {
 
 function deleteRow(table, button) {
 
-    var i = button.parentElement.parentElement.rowIndex;
+    var i = button.parentElement.parentElement.parentElement.rowIndex;
     table.deleteRow(i-1)
     Save();
 }
